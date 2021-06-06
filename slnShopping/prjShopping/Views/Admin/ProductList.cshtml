@@ -1,0 +1,66 @@
+﻿@model IEnumerable<prjShopping.Models.tProduct>
+
+@{
+    ViewBag.Title = "產品列表";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>產品列表</h2>
+
+<form method="post" action="@Url.Action("ProductList")" class="form-inline">
+    <select class="form-control" id="fCategoryId" name="fCategoryId">
+        @foreach (var item in ViewBag.Category)
+        {
+            <option value="@item.fCategoryId">@item.fCategoryName</option>
+        }
+    </select>
+    <input type="submit" value="查詢" class="btn btn-default" />
+</form>
+
+<p></p>
+
+<table class="table table-hover">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.fPId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fPName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fImg)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.fPId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fPName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fPrice)
+        </td>
+        <td>
+            @if (item.fImg == "")
+            {
+                <img src="~/Images/question.png" class="img-thumbnail" style="width:180px;" />
+            }
+            else
+            {
+                <img src="~/Images/@item.fImg" class="img-thumbnail" style="width:180px;" />
+            }
+        </td>
+        <td>
+            <a href="@Url.Action("ProductDelete")?fId=@item.fId" class="btn btn-danger">刪除</a>
+        </td>
+    </tr>
+}
+
+</table>

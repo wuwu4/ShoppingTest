@@ -1,0 +1,41 @@
+﻿@model IEnumerable<prjShopping.Models.tProduct>
+
+@{
+    ViewBag.Title = "產品列表";
+    Layout = "~/Views/Shared/_LayoutMemberIndex.cshtml";
+}
+
+
+
+<h2>產品列表</h2>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                @if (item.fImg == "")
+                {
+                    <img src="~/Images/question.png" style="width:210px;" />
+                }
+                else
+                {
+                    <img src="~/Images/@item.fImg" style="width:210px;" />
+                }
+
+                <div class="caption">
+                    <h4>@item.fPName</h4>
+                    <p>單價：@item.fPrice 元</p>
+                    <p>
+                        <a href="@Url.Action("ShoppingCar")?fPId=@item.fPId"
+                           class="btn btn-success">放入購物車</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+
+
+

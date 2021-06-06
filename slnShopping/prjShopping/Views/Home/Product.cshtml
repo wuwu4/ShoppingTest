@@ -1,0 +1,57 @@
+﻿@model IEnumerable<prjShopping.Models.tProduct>
+
+@{
+    ViewBag.Title = "產品列表";
+}
+
+
+
+<h2>產品列表</h2>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                @if (item.fImg == "")
+                {
+                    <img src="~/Images/question.png"  style="width:210px;" />
+                }
+                else
+                {
+                    <img src="~/Images/@item.fImg"  style="width:210px;" />
+                }
+
+                <div class="caption">
+                    <h4>@item.fPName</h4>
+                    <p>單價：@item.fPrice 元</p>
+                    <p> <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">放入購物車</a></p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">購物車訊息</h4>
+            </div>
+            <div class="modal-body">
+                <p>請登入購物平台</p>
+            </div>
+            <div class="modal-footer">
+                <a href="@Url.Action("Login")" class="btn btn-info">登入</a>
+                <button type="button" class="btn btn-default" data-dismiss="modal">關閉</button>
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,50 @@
+﻿@model IEnumerable<prjShopping.Models.tMember>
+
+@{
+    ViewBag.Title = "會員列表";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>會員列表</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.fUId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fPwd)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fEmail)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.fUId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fPwd)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fEmail)
+        </td>
+        <td>
+            <a href="@Url.Action("MemberOrderList")?fUId=@item.fUId" class="btn btn-info">
+                訂單主檔
+            </a>
+        </td>
+    </tr>
+}
+
+</table>
