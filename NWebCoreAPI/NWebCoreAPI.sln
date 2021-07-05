@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NWebCoreAPI", "NWebCoreAPI\NWebCoreAPI.csproj", "{A153BC3E-86BC-4004-833D-3D6A7C812C2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A153BC3E-86BC-4004-833D-3D6A7C812C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A153BC3E-86BC-4004-833D-3D6A7C812C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A153BC3E-86BC-4004-833D-3D6A7C812C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A153BC3E-86BC-4004-833D-3D6A7C812C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5ED4D0C4-56D3-4340-BE92-C5722BD7EE42}
+	EndGlobalSection
+EndGlobal
