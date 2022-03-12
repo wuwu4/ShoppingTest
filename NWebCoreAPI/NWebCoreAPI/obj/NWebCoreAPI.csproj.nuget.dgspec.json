@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MVC\\WepAPI\\NWebCoreAPI\\NWebCoreAPI\\NWebCoreAPI.csproj": {}
+    "D:\\sideproject\\wuwu_shopping\\NWebCoreAPI\\NWebCoreAPI\\NWebCoreAPI.csproj": {}
   },
   "projects": {
-    "D:\\MVC\\WepAPI\\NWebCoreAPI\\NWebCoreAPI\\NWebCoreAPI.csproj": {
+    "D:\\sideproject\\wuwu_shopping\\NWebCoreAPI\\NWebCoreAPI\\NWebCoreAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MVC\\WepAPI\\NWebCoreAPI\\NWebCoreAPI\\NWebCoreAPI.csproj",
+        "projectUniqueName": "D:\\sideproject\\wuwu_shopping\\NWebCoreAPI\\NWebCoreAPI\\NWebCoreAPI.csproj",
         "projectName": "NWebCoreAPI",
-        "projectPath": "D:\\MVC\\WepAPI\\NWebCoreAPI\\NWebCoreAPI\\NWebCoreAPI.csproj",
+        "projectPath": "D:\\sideproject\\wuwu_shopping\\NWebCoreAPI\\NWebCoreAPI\\NWebCoreAPI.csproj",
         "packagesPath": "C:\\Users\\red77\\.nuget\\packages\\",
-        "outputPath": "D:\\MVC\\WepAPI\\NWebCoreAPI\\NWebCoreAPI\\obj\\",
+        "outputPath": "D:\\sideproject\\wuwu_shopping\\NWebCoreAPI\\NWebCoreAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

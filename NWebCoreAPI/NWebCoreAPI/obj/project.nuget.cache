@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "toZv2YPvGwjtMrbGrbuMLidiXKkNCZ3VMrE0KgL2/wIVdhiLDead1OPIg+2KZBG4r37BnVpwj+ZkR7IMXMhkQg==",
+  "dgSpecHash": "BasKtZ3vAIVKx52Kt2BAbq99sEfH8A2kuFhYoqicoAYkhhnNK5etOFHFNn3K7DNDJO3e6AGFnuO5Vahr98f/gw==",
   "success": true,
-  "projectFilePath": "D:\\MVC\\WepAPI\\NWebCoreAPI\\NWebCoreAPI\\NWebCoreAPI.csproj",
+  "projectFilePath": "D:\\sideproject\\wuwu_shopping\\NWebCoreAPI\\NWebCoreAPI\\NWebCoreAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\red77\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\red77\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

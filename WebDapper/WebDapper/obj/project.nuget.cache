@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2zuvaflHWhE+PlRJnBKWjxnaStMu+TlrlOVFc9jPfQhOnhgwM3fmYPAcFCP6yI1otNnzt1QaqIKREjbwyxX+vg==",
+  "dgSpecHash": "bGeSgyfstUuF8gP87095tSlMBdnCsuGSzJzOJWLI+nkMF7uFUJ5/f6Zxj6G4OkzU9pLx0x5juY/NVQCidBMEjw==",
   "success": true,
-  "projectFilePath": "D:\\MVC\\WepAPI\\WebDapper\\WebDapper\\WebDapper.csproj",
+  "projectFilePath": "D:\\sideproject\\wuwu_shopping\\WebDapper\\WebDapper\\WebDapper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\red77\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\red77\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
